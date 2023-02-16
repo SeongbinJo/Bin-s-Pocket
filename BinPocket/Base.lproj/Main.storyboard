@@ -240,97 +240,97 @@
                                     <constraint firstAttribute="height" constant="1" id="F4e-aG-D0P"/>
                                 </constraints>
                             </view>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="4nZ-kS-E5m">
-                                <rect key="frame" x="15" y="138" width="340" height="20"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="PLW-xN-QSS">
+                                <rect key="frame" x="16" y="133" width="340" height="20"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrowtriangle.right.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="rdh-9X-SzP">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrowtriangle.right.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="6mI-sk-ROX">
                                         <rect key="frame" x="0.0" y="2.6666666666666634" width="20" height="15"/>
                                         <color key="tintColor" red="0.43137254899999999" green="0.24313725489999999" blue="0.015686274510000001" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="20" id="5HU-Yx-8Fo"/>
-                                            <constraint firstAttribute="height" constant="20" id="ThW-Xm-09k"/>
+                                            <constraint firstAttribute="height" constant="20" id="TVt-Di-otY"/>
+                                            <constraint firstAttribute="width" constant="20" id="bdT-6I-rFL"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="달력을 스와이프하여 이전/다음 달을 볼 수 있습니다." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k2R-xw-Jnx">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="달력을 스와이프하여 이전/다음 달을 볼 수 있습니다." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DxE-Je-GAO">
                                         <rect key="frame" x="28" y="0.0" width="312" height="20"/>
                                         <fontDescription key="fontDescription" name="NanumBarunpenOTF" family="NanumBarunpenOTF" pointSize="17"/>
-                                        <color key="textColor" red="0.49803921579999999" green="0.35686278339999999" blue="0.1843137443" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="textColor" red="0.25116012209999999" green="0.1561912278" blue="0.049155438789999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="QuN-ug-pcB">
-                                <rect key="frame" x="15" y="168" width="373" height="86.666666666666686"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="F5D-Pe-oLW">
+                                <rect key="frame" x="16" y="163" width="372" height="86.666666666666686"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrowtriangle.right.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="4YV-Is-FgS">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrowtriangle.right.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="aJV-sh-m0l">
                                         <rect key="frame" x="0.0" y="2.6666666666666634" width="20" height="15"/>
                                         <color key="tintColor" red="0.43137254899999999" green="0.24313725489999999" blue="0.015686274510000001" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="20" id="MSS-WJ-B3R"/>
-                                            <constraint firstAttribute="height" constant="20" id="vrP-4C-dRj"/>
+                                            <constraint firstAttribute="height" constant="20" id="ied-C6-dcA"/>
+                                            <constraint firstAttribute="width" constant="20" id="j4n-ax-KN4"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="메인화면의 우측 상단의 'T' 버튼을 누르면 이번 달로 이동하며, '달력' 버튼을 누르면 여태까지의 월 별 지출액 현황을 볼 수 있으며 리스트를 누르면 해당 달력으로 이동합니다." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iMd-D9-UUx">
-                                        <rect key="frame" x="28" y="0.0" width="345" height="86.666666666666671"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="메인화면의 우측 상단의 'T' 버튼을 누르면 이번 달로 이동하며, '달력' 버튼을 누르면 여태까지의 월 별 지출액 현황을 볼 수 있으며 리스트를 누르면 해당 달력으로 이동합니다." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8sR-lf-pwX">
+                                        <rect key="frame" x="28" y="0.0" width="344" height="86.666666666666671"/>
                                         <fontDescription key="fontDescription" name="NanumBarunpenOTF" family="NanumBarunpenOTF" pointSize="17"/>
-                                        <color key="textColor" red="0.49803921579999999" green="0.35686278339999999" blue="0.1843137443" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="textColor" red="0.25116012209999999" green="0.1561912278" blue="0.049155438789999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="AUv-5F-lCg">
-                                <rect key="frame" x="15" y="264.66666666666669" width="373" height="43.333333333333314"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="uSj-RE-ZSx">
+                                <rect key="frame" x="16" y="259.66666666666669" width="372" height="43.333333333333314"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrowtriangle.right.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="wrr-T1-Hoy">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrowtriangle.right.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Jo8-2G-pFY">
                                         <rect key="frame" x="0.0" y="2.6666666666666634" width="20" height="15"/>
                                         <color key="tintColor" red="0.43137254899999999" green="0.24313725489999999" blue="0.015686274510000001" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="20" id="gzf-NC-JHx"/>
-                                            <constraint firstAttribute="width" constant="20" id="k72-J0-G4W"/>
+                                            <constraint firstAttribute="width" constant="20" id="O6g-62-HKI"/>
+                                            <constraint firstAttribute="height" constant="20" id="OKR-7J-DvA"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="내역 리스트 화면에서 상단의 '어제', '내일' 버튼을 눌러 곧바로 날짜 이동을 할 수 있습니다." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Rb-EK-pdW">
-                                        <rect key="frame" x="30" y="0.0" width="343" height="43.333333333333336"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="내역 리스트 화면에서 상단의 '어제', '내일' 버튼을 눌러 곧바로 날짜 이동을 할 수 있습니다." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p26-nF-Mmv">
+                                        <rect key="frame" x="28" y="0.0" width="344" height="43.333333333333336"/>
                                         <fontDescription key="fontDescription" name="NanumBarunpenOTF" family="NanumBarunpenOTF" pointSize="17"/>
-                                        <color key="textColor" red="0.49803921579999999" green="0.35686278339999999" blue="0.1843137443" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="textColor" red="0.25116012209999999" green="0.1561912278" blue="0.049155438789999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="5VC-gg-6oi">
-                                <rect key="frame" x="15" y="318" width="373" height="65"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="yuE-Gy-beq">
+                                <rect key="frame" x="16" y="313" width="372" height="65"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrowtriangle.right.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="XVi-ie-L6o">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrowtriangle.right.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="aBK-ed-oN6">
                                         <rect key="frame" x="0.0" y="2.6666666666666634" width="20" height="15"/>
                                         <color key="tintColor" red="0.43137254899999999" green="0.24313725489999999" blue="0.015686274510000001" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="20" id="Qh3-va-c8R"/>
-                                            <constraint firstAttribute="width" constant="20" id="cp9-Hj-ZF3"/>
+                                            <constraint firstAttribute="height" constant="20" id="4yz-zk-2Y1"/>
+                                            <constraint firstAttribute="width" constant="20" id="sFl-GU-gTD"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="달력의 날짜를 누르면 지출/수입 내역을 추가하는 페이지로 이동하며, 내역의 삭제는 왼쪽으로 스와이프합니다." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BFk-cp-bCq">
-                                        <rect key="frame" x="32" y="0.0" width="341" height="65"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="달력의 날짜를 누르면 지출/수입 내역을 추가하는 페이지로 이동하며, 내역의 삭제는 왼쪽으로 스와이프합니다." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W7c-1w-LqF">
+                                        <rect key="frame" x="28" y="0.0" width="344" height="65"/>
                                         <fontDescription key="fontDescription" name="NanumBarunpenOTF" family="NanumBarunpenOTF" pointSize="17"/>
-                                        <color key="textColor" red="0.49803921579999999" green="0.35686278339999999" blue="0.1843137443" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="textColor" red="0.25116012209999999" green="0.1561912278" blue="0.049155438789999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="XIh-US-SYS">
-                                <rect key="frame" x="15" y="393" width="373" height="43.333333333333314"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="gij-Ye-JRa">
+                                <rect key="frame" x="16" y="388" width="372" height="43.333333333333314"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrowtriangle.right.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="PMh-Dc-uhl">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrowtriangle.right.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="aLD-Tm-zbA">
                                         <rect key="frame" x="0.0" y="2.6666666666666634" width="20" height="15"/>
                                         <color key="tintColor" red="0.43137254899999999" green="0.24313725489999999" blue="0.015686274510000001" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="20" id="QGb-of-iwt"/>
-                                            <constraint firstAttribute="height" constant="20" id="aGX-Tp-7dV"/>
+                                            <constraint firstAttribute="width" constant="20" id="OK1-B9-lkw"/>
+                                            <constraint firstAttribute="height" constant="20" id="ciB-20-6hC"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="지출/수입 내역을 추가할 때 지출/수입의 선택, 제목, 금액을 전부 입력해야합니다." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X8e-bF-wlR">
-                                        <rect key="frame" x="28" y="0.0" width="345" height="43.333333333333336"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="지출/수입 내역을 추가할 때 지출/수입의 선택, 제목, 금액을 전부 입력해야합니다." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wdX-Xo-Pkl">
+                                        <rect key="frame" x="28" y="0.0" width="344" height="43.333333333333336"/>
                                         <fontDescription key="fontDescription" name="NanumBarunpenOTF" family="NanumBarunpenOTF" pointSize="17"/>
-                                        <color key="textColor" red="0.49803921579999999" green="0.35686278339999999" blue="0.1843137443" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="textColor" red="0.25116012209999999" green="0.1561912278" blue="0.049155438789999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -339,25 +339,26 @@
                         <viewLayoutGuide key="safeArea" id="457-Xp-6OG"/>
                         <color key="backgroundColor" red="0.95294117647058818" green="0.83529411764705885" blue="0.70196078431372544" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="PLW-xN-QSS" firstAttribute="top" secondItem="15H-r0-5mC" secondAttribute="bottom" constant="10" id="0lP-Hq-Chv"/>
                             <constraint firstItem="euf-df-lJD" firstAttribute="centerX" secondItem="457-Xp-6OG" secondAttribute="centerX" id="55f-w6-4mp"/>
-                            <constraint firstItem="4nZ-kS-E5m" firstAttribute="top" secondItem="15H-r0-5mC" secondAttribute="bottom" constant="14.999999999999972" id="95p-tf-Eld"/>
-                            <constraint firstItem="XIh-US-SYS" firstAttribute="top" secondItem="5VC-gg-6oi" secondAttribute="bottom" constant="10" id="DH3-Ho-O5U"/>
-                            <constraint firstItem="XIh-US-SYS" firstAttribute="leading" secondItem="457-Xp-6OG" secondAttribute="leading" constant="15" id="Duq-yZ-Wy7"/>
+                            <constraint firstItem="yuE-Gy-beq" firstAttribute="trailing" secondItem="457-Xp-6OG" secondAttribute="trailing" constant="-5" id="7iZ-lp-veU"/>
+                            <constraint firstItem="F5D-Pe-oLW" firstAttribute="leading" secondItem="457-Xp-6OG" secondAttribute="leading" constant="16" id="D0w-y6-ga1"/>
                             <constraint firstItem="15H-r0-5mC" firstAttribute="leading" secondItem="457-Xp-6OG" secondAttribute="leading" id="EOR-Tj-CO6"/>
                             <constraint firstItem="euf-df-lJD" firstAttribute="top" secondItem="457-Xp-6OG" secondAttribute="top" constant="20" id="HRg-8a-TKX"/>
-                            <constraint firstItem="QuN-ug-pcB" firstAttribute="top" secondItem="4nZ-kS-E5m" secondAttribute="bottom" constant="10" id="LUz-MT-mbE"/>
-                            <constraint firstItem="4nZ-kS-E5m" firstAttribute="leading" secondItem="457-Xp-6OG" secondAttribute="leading" constant="15" id="M1L-ol-dOU"/>
-                            <constraint firstItem="QuN-ug-pcB" firstAttribute="leading" secondItem="457-Xp-6OG" secondAttribute="leading" constant="15" id="NiP-dA-KdU"/>
-                            <constraint firstItem="AUv-5F-lCg" firstAttribute="trailing" secondItem="457-Xp-6OG" secondAttribute="trailing" constant="-5" id="OwM-86-Nl4"/>
-                            <constraint firstItem="5VC-gg-6oi" firstAttribute="trailing" secondItem="457-Xp-6OG" secondAttribute="trailing" constant="-5" id="Q5y-H4-nRE"/>
-                            <constraint firstItem="5VC-gg-6oi" firstAttribute="top" secondItem="AUv-5F-lCg" secondAttribute="bottom" constant="10" id="bD6-jv-F72"/>
-                            <constraint firstItem="QuN-ug-pcB" firstAttribute="trailing" secondItem="457-Xp-6OG" secondAttribute="trailing" constant="-5" id="dWU-rh-mZ3"/>
-                            <constraint firstItem="XIh-US-SYS" firstAttribute="trailing" secondItem="457-Xp-6OG" secondAttribute="trailing" constant="-5" id="fGG-G3-dfL"/>
-                            <constraint firstItem="AUv-5F-lCg" firstAttribute="top" secondItem="QuN-ug-pcB" secondAttribute="bottom" constant="10.000000000000057" id="tTW-7Q-e8A"/>
-                            <constraint firstItem="5VC-gg-6oi" firstAttribute="leading" secondItem="457-Xp-6OG" secondAttribute="leading" constant="15" id="tvl-VQ-gmj"/>
+                            <constraint firstItem="gij-Ye-JRa" firstAttribute="leading" secondItem="457-Xp-6OG" secondAttribute="leading" constant="16" id="MxF-DI-jqr"/>
+                            <constraint firstItem="gij-Ye-JRa" firstAttribute="trailing" secondItem="457-Xp-6OG" secondAttribute="trailing" constant="-5" id="Nfj-YA-us1"/>
+                            <constraint firstItem="yuE-Gy-beq" firstAttribute="leading" secondItem="457-Xp-6OG" secondAttribute="leading" constant="16" id="NzG-aq-MAW"/>
+                            <constraint firstItem="PLW-xN-QSS" firstAttribute="leading" secondItem="457-Xp-6OG" secondAttribute="leading" constant="16" id="OsR-Q9-m2z"/>
+                            <constraint firstItem="yuE-Gy-beq" firstAttribute="top" secondItem="uSj-RE-ZSx" secondAttribute="bottom" constant="10" id="Tc8-6F-eyf"/>
+                            <constraint firstItem="uSj-RE-ZSx" firstAttribute="leading" secondItem="457-Xp-6OG" secondAttribute="leading" constant="16" id="UDi-Vb-GFn"/>
+                            <constraint firstItem="457-Xp-6OG" firstAttribute="trailing" secondItem="PLW-xN-QSS" secondAttribute="trailing" constant="37" id="cPb-lo-gbY"/>
+                            <constraint firstItem="uSj-RE-ZSx" firstAttribute="top" secondItem="F5D-Pe-oLW" secondAttribute="bottom" constant="10" id="gtC-4k-89d"/>
+                            <constraint firstItem="uSj-RE-ZSx" firstAttribute="trailing" secondItem="457-Xp-6OG" secondAttribute="trailing" constant="-5" id="lJe-If-e1r"/>
+                            <constraint firstItem="F5D-Pe-oLW" firstAttribute="top" secondItem="PLW-xN-QSS" secondAttribute="bottom" constant="10" id="lP7-gY-Rb9"/>
+                            <constraint firstItem="gij-Ye-JRa" firstAttribute="top" secondItem="yuE-Gy-beq" secondAttribute="bottom" constant="10" id="sls-r7-TEK"/>
+                            <constraint firstItem="F5D-Pe-oLW" firstAttribute="trailing" secondItem="457-Xp-6OG" secondAttribute="trailing" constant="-5" id="uAX-EE-jeX"/>
                             <constraint firstItem="457-Xp-6OG" firstAttribute="trailing" secondItem="15H-r0-5mC" secondAttribute="trailing" id="uhH-Og-ej9"/>
                             <constraint firstItem="15H-r0-5mC" firstAttribute="top" secondItem="euf-df-lJD" secondAttribute="bottom" constant="20" id="xPD-nI-O1N"/>
-                            <constraint firstItem="AUv-5F-lCg" firstAttribute="leading" secondItem="457-Xp-6OG" secondAttribute="leading" constant="15" id="zbe-UK-4vm"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -1032,13 +1033,13 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="y8O-nX-hbn">
                                         <rect key="frame" x="0.0" y="37.666666666666657" width="198.33333333333334" height="21.666666666666671"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Naver :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cFp-Cc-KKC">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Naver :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cFp-Cc-KKC">
                                                 <rect key="frame" x="0.0" y="0.0" width="46" height="21.666666666666668"/>
                                                 <fontDescription key="fontDescription" name="NanumBarunpenOTF" family="NanumBarunpenOTF" pointSize="17"/>
                                                 <color key="textColor" red="0.25116012209937688" green="0.15619122783512615" blue="0.04915543879291432" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="avan31017@naver.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R33-AC-vly">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="avan31017@naver.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R33-AC-vly">
                                                 <rect key="frame" x="54.000000000000014" y="0.0" width="144.33333333333337" height="21.666666666666668"/>
                                                 <fontDescription key="fontDescription" name="NanumBarunpenOTF" family="NanumBarunpenOTF" pointSize="17"/>
                                                 <color key="textColor" red="0.25116012209937688" green="0.15619122783512615" blue="0.04915543879291432" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
