@@ -1,5 +1,6 @@
 # 빈주머니
 #### _개발기간 : 2023.01.16 ~. 2023.02.12 / 추가할 기능 생기는대로 버전 올리는 중.._
+#### 총 시간 : 5576분, 약 92.9시간 소요.
 
 ## [앱 소개]
 <img width="23%" src="https://user-images.githubusercontent.com/86182850/219360685-44e9d666-04db-408b-b91f-cb86c58c36a6.jpg"/> <img width="23%" src="https://user-images.githubusercontent.com/86182850/219360708-d53ed9fd-8307-4431-b0db-16cb177bdeb0.jpg"/> <img width="23%" src="https://user-images.githubusercontent.com/86182850/219360715-00057ee2-4575-4ac0-b722-af6122b95957.jpg"/> <img width="23%" src="https://user-images.githubusercontent.com/86182850/219360721-d30266fe-7ebd-498b-844c-fcb7f28d71dd.jpg"/>
